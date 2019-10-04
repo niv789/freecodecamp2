@@ -9,8 +9,9 @@ def find_power(num, pow_num):
      
     return result
 
-
-print(find_power(2, 9))
+number = int(input(" Please Enter any Positive Integer : "))
+exponent = int(input(" Please Enter Exponent Value : "))
+print( "SOLUTION:",find_power(number, exponent))
 
 
 
